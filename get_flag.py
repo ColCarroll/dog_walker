@@ -103,4 +103,4 @@ class FlagTask(BasicSQLiteTask):
             if flag_data != '{}' and self.is_message_new(flag_data):
                 self.register_message(flag_data)
                 messages.append(flag_data)
-        return messages
+        return messages[-1::-1]
