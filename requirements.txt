@@ -1,0 +1,6 @@
+beautifulsoup4==4.5.0
+pete==0.1.2
+py==1.4.31
+pytest==2.9.2
+requests==2.10.0
+wheel==0.24.0
